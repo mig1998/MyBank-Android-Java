@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Classes.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:textColor="#FF0000"
+        android:textColorHint="#0048FF" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:textColor="#FF0000"
+        android:textColorHint="#0118DF" />
+
+    <Switch
+        android:id="@+id/mostraSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Senha" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        android:background="#6E8F36"
+        android:text="Entrar"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        android:background="#6E8F36"
+        android:text="Cadastrar"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtFalha"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Usuario Não Existe"
+        android:textColor="#DC0000"
+        android:visibility="invisible" />
+
+</LinearLayout>

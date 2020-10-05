@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Classes.Cadastro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Cadastrar"
+        android:textColor="#CF0000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/cad_Conta"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Conta"
+        android:inputType="textPersonName"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/cad_CPF"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="textPersonName|numberDecimal"
+        android:maxLength="10" />
+
+    <EditText
+        android:id="@+id/cad_Idade"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Idade"
+        android:inputType="textShortMessage|numberDecimal"
+        android:maxLength="2" />
+
+    <EditText
+        android:id="@+id/cad_Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/cad_Password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/cad_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName|numberDecimal"
+        android:maxLength="10"
+        android:text="0"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/cad_poupanca"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName|numberDecimal"
+        android:maxLength="10"
+        android:text="0"
+        android:visibility="invisible" />
+
+    <Switch
+        android:id="@+id/mudarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Mostrar Senha"
+        android:textColor="#2A5595" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#6E8F36"
+            android:text="Voltar" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#6E8F36"
+            android:onClick="clean"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/btnCadastrar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#6E8F36"
+            android:text="Cadastrar" />
+    </LinearLayout>
+
+</LinearLayout>

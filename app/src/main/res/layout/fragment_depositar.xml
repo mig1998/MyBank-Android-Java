@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7CEDD3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.SaldoFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Depositar:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtSaldoAtualdep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/MoneyDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="example: $50,20"
+        android:inputType="textPersonName|numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtQtdDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="#03A9F4"
+        android:gravity="center|right"
+        android:shadowColor="#30D55A"
+        android:text="0,00"
+        android:textColor="#30D55A"
+        android:textColorHighlight="#30D55A"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#6E8F36"
+        android:text="Confirmar" />
+
+    <TextView
+        android:id="@+id/txtSaldoDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:shadowColor="#FFFFFF"
+        android:text="Saldo"
+        android:textColor="#1B9E22"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

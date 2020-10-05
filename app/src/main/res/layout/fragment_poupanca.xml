@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7CEDD3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.SaldoFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Poupança:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/SaldoPoupancaAtual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="R$"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editMoneyPoupança"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginBottom="15dp"
+        android:background="#03A9F4"
+        android:ems="10"
+        android:hint="$ 50.0"
+        android:inputType="number|textPersonName" />
+
+    <Button
+        android:id="@+id/btnRetirarPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#6E8F36"
+        android:text="Retirar" />
+
+    <Button
+        android:id="@+id/btnDepositPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#6E8F36"
+        android:text="Depositar" />
+
+    <TextView
+        android:id="@+id/txtQtdSaldoPoupança"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:shadowColor="#30D55A"
+        android:textColor="#30D55A"
+        android:textColorHighlight="#30D55A"
+        android:textSize="24sp" />
+
+</LinearLayout>

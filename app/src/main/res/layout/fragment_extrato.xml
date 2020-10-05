@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7CEDD3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.SaldoFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Saldo:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtQtdSaque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="75dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:shadowColor="#30D55A"
+        android:text="0,00"
+        android:textColor="#30D55A"
+        android:textColorHighlight="#30D55A"
+        android:textSize="24sp" />
+
+</LinearLayout>
